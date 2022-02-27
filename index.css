@@ -1,0 +1,54 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+}
+
+.back {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+}
+
+.page1 {
+    flex-grow: 2;
+}
+
+.page2 {
+    flex-grow: 6;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-image: url("images/usa.jpeg");
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+}
+
+.page2 span {
+    font-size: 50px;
+    font-weight: bold;
+    background-color: white;
+    color: #000;
+    border: double 10px;
+}
+
+.page3 {
+    flex-grow: 2;
+}
+
+.menu {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.menu button {
+    font-size: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 150px;
+}

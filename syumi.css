@@ -1,0 +1,89 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+}
+
+.back {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+}
+
+.page1 {
+    flex-grow: 2;
+}
+
+.page2 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-grow: 6;
+    background-image: url("images/usa.jpeg");
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+}
+
+.page2 span {
+    font-size: 50px;
+    font-weight: bold;
+    background-color: white;
+    color: #000;
+    border: double 10px;
+}
+
+.page3 {
+    flex-grow: 2;
+}
+
+.item1 p {
+    font-size: 30px;
+    margin-left: 15px;
+    color: #FF8C00;
+  background: -webkit-linear-gradient(0deg, #40E0D0, #FF8C00, #FF0080);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.item {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item1 ol strong {
+    font-size: 20px;
+}
+
+.item1 table {
+    border-collapse: collapse;
+    margin-left: 30px;
+}
+
+.item1 table th,td  {
+    border: solid 1px;
+    margin: 0;
+}
+
+.item2 {
+    padding-left: 30px;
+}
+
+.item2 img {
+    width: 400px;
+    height: auto;
+    padding-top: 50px;
+}
+
+.item3 {
+    text-align: center;
+}
+
+button {
+    display: inline-block;
+}

@@ -1,0 +1,65 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+}
+
+.back {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+}
+
+.page1 {
+    flex-grow: 2;
+}
+
+.page2 {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-grow: 6;
+    background-image: url("images/usa.jpeg");
+    background-size: 100% 600px;
+    background-repeat: no-repeat;
+}
+
+.page2 span {
+    font-size: 50px;
+    font-weight: bold;
+    background-color: white;
+    color: #000;
+    border: double 10px;
+}
+
+.page3 {
+    flex-grow: 2;
+}
+
+.item {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item1 h1 + h2 {
+    color: orange;
+}
+
+.item2 {
+    margin-left: 40px;
+}
+.item2 img {
+    width: 300px;
+    height: auto;
+    padding-top: 120px;
+}
+
+.item3 {
+    text-align: center;
+}
